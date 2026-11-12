@@ -1,3 +1,9 @@
+## [1.1.1-dev.1](https://github.com/Nizarberyan/Avito-Patches/compare/v1.1.0...v1.1.1-dev.1) (2026-11-12)
+
+### 🐛 Bug Fixes
+
+* Hide sponsored campaigns on every screen ([e8b78ab](https://github.com/Nizarberyan/Avito-Patches/commit/e8b78ab6e6d184785673fe6df09ad84e295bc5c1))
+
 ## [1.1.0](https://github.com/Nizarberyan/Avito-Patches/compare/v1.0.0...v1.1.0) (2026-11-12)
 
 ### ✨ New Features

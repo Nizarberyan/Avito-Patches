@@ -1,6 +1,6 @@
 {
   "NOTE": "Do NOT manually edit this file. This file is automatically updated when semantic release (release.yml) runs. Manually editing this file can break your releases and break third party tools that use this file.",
-  "version": "1.1.0",
+  "version": "1.1.1-dev.1",
   "patches": [
     {
       "name": "Change installer source",
@@ -219,8 +219,8 @@
       "options": []
     },
     {
-      "name": "Hide sticky banner",
-      "description": "Removes the sponsored campaign banner pinned above the search bar on the home screen.",
+      "name": "Hide sponsored campaigns",
+      "description": "Removes the sponsored campaigns Avito serves itself on every screen: the sticky banner, notification ads, swipe-up ads and touching points.",
       "default": true,
       "category": null,
       "compatiblePackages": [
