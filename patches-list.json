@@ -1,5 +1,40 @@
 {
   "NOTE": "Do NOT manually edit this file. This file is automatically updated when semantic release (release.yml) runs. Manually editing this file can break your releases and break third party tools that use this file.",
-  "version": "0.0.0",
-  "patches": []
+  "version": "1.0.0",
+  "patches": [
+    {
+      "name": "Hide sticky banner",
+      "description": "Removes the sponsored campaign banner pinned above the search bar on the home screen.",
+      "default": true,
+      "category": null,
+      "compatiblePackages": [
+        {
+          "packageName": "se.scmv.morocco",
+          "name": "Avito",
+          "description": null,
+          "apkFileType": "XAPK",
+          "appIconColor": "#2B5BEA",
+          "signatures": null,
+          "formFactor": "MOBILE",
+          "targets": [
+            {
+              "version": "10.8.1",
+              "versionCodes": null,
+              "isExperimental": false,
+              "minSdk": null,
+              "description": null
+            },
+            {
+              "version": null,
+              "versionCodes": null,
+              "isExperimental": true,
+              "minSdk": null,
+              "description": null
+            }
+          ]
+        }
+      ],
+      "options": []
+    }
+  ]
 }

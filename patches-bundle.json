@@ -1,7 +1,7 @@
 {
-  "created_at": "",
-  "description": "",
-  "download_url": "",
+  "created_at": "2026-11-12T14:11:37",
+  "description": "## 1.0.0 (2026-11-12)\n\n### ✨ New Features\n\n* Add Hide sticky banner patch for Avito ([f817170](https://github.com/Nizarberyan/Avito-Patches/commit/f8171708cbf64b85a6bff42dc4f8744891f96ba3))",
+  "download_url": "https://github.com/Nizarberyan/Avito-Patches/releases/download/v1.0.0/patches-1.0.0.mpp",
   "signature_download_url": "",
-  "version": ""
+  "version": "1.0.0"
 }
