@@ -4,21 +4,21 @@ import app.morphe.patcher.Fingerprint
 import app.morphe.patcher.string
 
 /**
- * Ad visibility store method that decides if the home screen sticky banner
- * of a campaign may be shown, based on the "hide until" timestamp saved
- * in shared preferences:
- *
- * `boolean shouldShowStickyBanner(String campaignId)`
- *
- * The coroutine that writes the same preference key returns an Object,
- * so the boolean return type keeps this match unique.
+ * Api of the server that provides the sponsored campaigns Avito serves itself.
+ * The class and its methods are not obfuscated.
  */
-internal object ShouldShowStickyBannerFingerprint : Fingerprint(
-    returnType = "Z",
-    parameters = listOf("Ljava/lang/String;"),
-    filters = listOf(
-        string("sticky_banner_hide_until_campaign_"),
-    ),
+internal const val MEDIA_SERVER_API_CLASS =
+    "Lse/scmv/morocco/data/network/rest/media_server/MediaServerApi;"
+
+/**
+ * Methods of [MEDIA_SERVER_API_CLASS] that request the campaigns of each ad type:
+ * the sticky banner, notification ads, swipe-up ads and touching points.
+ */
+internal val sponsoredCampaignRequestMethods = listOf(
+    "getActiveSlideAds",
+    "getNotifAds",
+    "getSwipeUpAds",
+    "fetchTouchingPoints",
 )
 
 /**
